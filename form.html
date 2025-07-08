@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Bilgi Formu</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Kişisel Bilgi Formu:</legend>
+            <div>
+                <label for="fname">İsim ve Soyisim</label>
+                <input type="text" id="fname">
+            </div>
+            <div>
+                <label for="mail">E-Posta</label>
+                <input type="email" name="mail" id="mail">
+            </div>
+            <div>
+                <label for="psw">Şifre</label>
+                <input type="password" id="psw">
+            </div>
+            <div>
+                <label for="gender">Cinsiyet</label>
+                <input type="radio" name="gender" value="male"> Erkek
+                <input type="radio" name="gender" value="female"> Kadın
+            </div>
+            <div>
+                <label for="fruit">Favori Meyven</label>
+                <select id="fruit">
+                    <option value="">Seçiniz...</option>
+                    <option value="cherry">Kiraz</option>
+                    <option value="banana">Muz</option>
+                    <option value="apple">Elma</option>
+                    <option value="strawberry">Çilek</option>
+                    <option value="watermelon">Karpuz</option>
+                </select>
+            </div>
+            <div>
+                <label for="address">Adres</label>
+                <textarea id="address"></textarea>
+
+            </div>
+            <div>
+                <button type="submit">Gönder</button>
+            </div>
+        </fieldset>
+
+    </form>
+</body>
+</html>
